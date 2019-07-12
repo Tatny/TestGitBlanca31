@@ -1,0 +1,104 @@
+.texto{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: medium;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.player1{
+    border: solid 1px black;
+    height: 500px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    background-image: url(https://img.freepik.com/free-vector/beautiful-colorful-polygon-background-vector_1035-15173.jpg?size=338&ext=jpg);
+
+    
+    
+}
+
+
+.piedra{
+    /* border: solid 1px orangered; */
+    height: 113px;
+    width: 200px;
+    background-image: url(./stone.jpg);
+    color: white;
+    font-size: medium;
+}
+
+.papel{
+    /* border: solid 1px purple; */
+    height: 113px;
+    width: 200px;
+    background-image: url(./paper.jpg);
+    color: black;
+    font-size: medium;
+}
+
+.tijeras{
+    /* border: solid 1px black; */
+    height: 113px;
+    width: 200px;
+    background-image: url(./scissor.jpg);
+    color: black;
+    font-size: medium;
+}
+
+.player2{
+    border: solid 1px black;
+    height: 500px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIPEBUPDxMVDw8PFRUPFQ8PFRUPDxUPFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDw0NFSsZFRkrKy0tKy0rKy0tKy03Nzc3LS0tLS0tLS03LSsrLSstLS0tNystKy0tLSsrKy0tKysrK//AABEIASwAqAMBIgACEQEDEQH/xAAbAAEBAQEBAQEBAAAAAAAAAAADAgEABAUGB//EABsQAQEBAQEBAQEAAAAAAAAAAAABAhESYYFx/8QAGgEAAwEBAQEAAAAAAAAAAAAAAAECAwQFBv/EABgRAQEBAQEAAAAAAAAAAAAAAAABERIC/9oADAMBAAIRAxEAPwD+e+WzJJhsw+qx4ej8qmSTKvAwugzLeFmG+Ph4Wi43hfLvIwtF5Z5N5Z5+Fg0Pllyfwy4GDp57lNy9Fyi5Tip6ee5Rcn1lFyWLlBcpuT3KLlOLlF5Zwtym5LFaLjiccMPX1ZlcyuRcy6HFaKYV4NMqmQnoHhvg8y7yZdA8O8PR5Z5BdA8M8Hsd5GDoHlNy9HGXJYOnmuUXL1XKLkYqenk1lGsvVrI9ZTjSennuUXL0XKLksXPQLE2HsRYWLlDY4ljixWvs5yuZbnJJlq4LUzK5hWckmDRaOYb4NMt8AugeGeHp8J8gunn8MuD3LLkx0Dwm5PcpuQOgXKNZei5RchU9PNrKNZejWUayS56ebWUXL0XKLksaT089yi5ejWUXJYuegWMLrLk4019rOSZy3OTZyt59qZkkyrOSTJptHMq8kmW+STovKfJ/LLky157lNy9Fym5A157E3J7lNyY0Fyi5ei5RYD159RFj0ayPWTXPTz3I9Zei5RrJY0np59RFh9ZRYTSV57HE1HFjSV9zGTZyzOS5huC12clzl2YXOQnUTLfJZl3CTovKbk1ibANBcpuT2IsUWhuUXJ7E2AaC5TcmsRYD0Gsj1l6LB6hqlefWR6y9GoPUDSUGsjsPqDsDTzQay5eo4msr9DmFzE5hMxLgtVmFzE5hchOukdYp1ItRYmwlRYY0VibCVFnwy0dibCWJpjR2IpbEahjQ6g9GsHqGqUOoLRtQeoGkodD0bUFqBr5otRzdRoayv0OYTKMriHDaTJJRZpJQnVyuZK7owmoqrU2jC1OkVdRTCamqqaYTUVdTTA9D2TQ9HioHQ9F0LRtYLQ9F0LRNYPTnacGsfosrg8riHBSRUHFwJW1Eb0EpNcwxrKmqqaAmpqqimGWIqqmmEUeyUejXBaFomhaDXyjQtE0LRtfKNOZppNY/QZVERcQ4KuVUqIqUJqpVI6oE3rOu6wE61NraymE1NbU0zZUWqqKZptHqro9GuD0LRdC0GvkehaJoeja+R6rmacMax+gi4PK4yefVxURFQJqo1kaCaxnXdMnVlcmmGVNbam0zZUVtRTVGUel6o9U1yIotE1RaNrIPQ6TQtBr5HpzNVwbR+hlXKPK4xedVyriIuBFbGsjQTmNYZMTW1lM01FqqiqORlo7VVFNcjNUdVUU1yI0PVXoejayI0LRNC0GvmD052nBrH3pV5RmryxefYSVURKqUkWLjUyt6aca53WGMZU1VTTh4iopKiqVIPSKvSKa5EVFVpOjXIOo0u1GjaSD0LRdD0bWB05unE0j7kpIKLywcNhYqDipQnCRqI08TytyWHg5V1Ncynh8sqKuoqlSIo9F1B6hrkFYik1B6isXIioq6injSRGh6hKOhcgtRzdOLFx9iVcFlcrHHJhZVQUq5Rhcrlb1Ereqwcr67qeulVg5V1nWdd08PlzK7rKeHPKairqaeKnkWkWEqNHi55FUUtg6eLkHR0uoiwYqQOmu1HFipH0pV5oJpedMcYcmlVBTS5VSDkkcmVvVSDlTmOVh8t61Ljw+G/jK5h4rh1TWsp4fCLEaJU2DFcisRqFsRqGfIrEWFsRYDwOoxeo4jw00vOnnlXNMZGfL0TS5p55VzS5D5eiaVK880TOl8nybrYOVcGHPKnOipArlLuL47z8B8jsZwvn47wNPkNibDXPxNz8B8hsHY9Nz8HrPwDkFg7Ho1n4i5+AY89ji3PxxDHklVKGaVNJiMNKqaDKua+tZDw00vNBm/SZv1eK5PnRM0Gb9Jmlh4bNJA5v0sv1NisJFSIlXKinjeO41U/qRg7llyV1g08Bco1l6OfUWDRjz6yi5eq5Hc/RpY8ty4+ssLRj4UqpRSqlV5RhZVyhlXltDkNkmQ5JlUVIbJchyTIp4aEyKEyinhcrg8kiKeLioiKiDxrWNIY7ibFOpDEWJuScZwtGBuXEscnUvyMq5RSrzWvlBJSZopSZraKhc0maLNJmrVDZpc36HFLmmZclzQ5pc1FMuauUeauVnTJKqUcqpU0YprOtlI2xzOttSHObKzqamsrm9chNf/2Q==);
+    
+    
+}
+
+
+.piedra2{
+    /* border: solid 1px orangered; */
+    height: 113px;
+    width: 200px;
+    background-image: url(./stone.jpg);
+    color: white;
+    font-size: medium;
+}
+
+.papel2{
+    /* border: solid 1px purple; */
+    height: 113px;
+    width: 200px;
+    background-image: url(./paper.jpg);
+    color:black;
+    font-size: medium;
+}
+
+.tijeras2{
+    /* border: solid 1px black; */
+    height: 113px;
+    width: 200px;
+    background-image: url(./scissor.jpg);
+    color: black;
+    font-size: medium;
+}

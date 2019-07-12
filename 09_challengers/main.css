@@ -1,0 +1,51 @@
+.custom-link-nav-color{
+    color: white !important;
+}
+
+.logo-navbar{
+    width: 45px;
+
+}
+
+.img-custom-car{
+    height: 100vh;
+    width: 100%;
+}
+
+.custom-margin{
+    margin-top: 71px;
+}
+
+/* .container{
+    width: 100% !important;
+    max-width: 100%;
+    border: solid 1px; color: red
+    ;
+    margin: 0 !important;
+    padding: 0 !important;
+} */
+
+.custom-container{
+    border: solid 1px blue;
+    max-width: 100%;
+    background-color: black;
+}
+
+.card-body{
+    background-color: black;
+    border-top: solid 1px white;
+}
+.card-body>h5{
+    color: white;
+}
+.card-body >a {
+    border-radius: 0;
+    background-color: black;
+    border: 1px white;
+}
+
+.card-body >a:hover {
+    color: black !important;
+    background-color:white !important;
+    border: 1px white;
+}

@@ -1,0 +1,19 @@
+header{
+    border: solid 1px green;
+    height: 100%;
+    width: 100%;
+}
+nav{
+    border: solid 1px green;
+    height: 100%;
+    width: 100%;
+}
+.nav-container>a{
+    text-decoration: none;
+}
+
+main{
+    border: solid 1px green;
+    height: 100%;
+    width: 100%;
+}

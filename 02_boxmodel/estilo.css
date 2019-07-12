@@ -1,0 +1,38 @@
+/* *{
+    background-color: azure
+} */
+
+
+
+h1{
+    border: solid 1px greenyellow;
+    display: inline-block;
+    padding: 15px;
+    background-color: beige;
+    color: blueviolet;
+    margin-right: 30px;
+}
+
+h2{
+    border: solid 1px red;
+    height: 31px;
+    width: 200px;
+    display: inline-block;
+    background-color: blue;
+    margin: 30px 10px;
+    
+}
+
+p{
+    border: solid 1px red;
+    margin: 4px 76px 19px 0;
+}
+
+a{
+    border: solid 1px red;
+}
+.seccion1{
+    border: solid 1px red;
+    width: 50%;
+    height: 300px;
+} 

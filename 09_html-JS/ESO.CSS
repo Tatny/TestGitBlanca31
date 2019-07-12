@@ -1,0 +1,64 @@
+body{
+   border: solid 3px green;
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   background-image: url('https://cdn-3.expansion.mx/dims4/default/f412254/2147483647/strip/true/crop/3000x2255+0+0/resize/800x601!/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F72%2F73%2Fdaf452fb4236a6d6745068300984%2Fs097056563.JPG');
+   background-size: cover;
+   background-position: center center;
+}
+
+.input-container{
+    border: solid 1px blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-container{
+    border: solid 1px yellow;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0.116);
+}
+
+
+.input-container > label{
+    margin-top: 20px;
+}
+
+.input-container > input{
+    width: 250px;
+    margin-top: 20px;
+    background-color: rgb(26, 26, 112);
+    color: white;
+    border: solid 1px gray;
+    border-radius: 25px;
+
+}
+
+.input-container > input::placeholder{
+    color: white;
+    padding-left: 15px;
+
+}
+
+.input-container > boton{
+    margin-top: 20px;
+    border: solid 1px gray;
+    background-color: blueviolet;
+    color: grey;
+}
+
+.input-container > boton:hover{
+    border: solid 1px gray;
+    background-color: blue;
+}
+
+.desaparecer{
+    display: none;
+}
